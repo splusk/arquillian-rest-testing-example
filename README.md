@@ -20,6 +20,7 @@ The setup should leverage the following technologies:
 * Arquillian
 * Jboss 7+
 * Maven
+* JEE
 
 I know there are a zillion other examples to start/use but for whatever reason they were just to combersome to start off
 with. Therefore I hope this example-template solves this.
