@@ -1,4 +1,4 @@
-package com.splusk.template.bid.operations;
+package com.splusk.template.jaxrs;
 
 import java.net.URL;
 
@@ -20,7 +20,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import com.splusk.template.bid.domain.Bid;
-import com.splusk.template.jaxrs.rs.JaxRsActivator;
+import com.splusk.template.bid.operations.BidResource;
 
 @RunWith(Arquillian.class)
 @RunAsClient

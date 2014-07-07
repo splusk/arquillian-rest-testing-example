@@ -1,4 +1,4 @@
-package com.splusk.template.bid.operations;
+package com.splusk.template.jaxrs;
 //package com.jeppesen.jcms.bid.operations;
 //
 //import static org.junit.Assert.assertNotNull;

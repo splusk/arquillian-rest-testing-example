@@ -1,4 +1,4 @@
-package com.splusk.template.jaxrs.rs;
+package com.splusk.template.jaxrs;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

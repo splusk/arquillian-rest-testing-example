@@ -1,4 +1,4 @@
-package com.splusk.template.bid.operations;
+package com.splusk.template.jaxrs;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -24,7 +24,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import com.splusk.template.bid.domain.Bid;
-import com.splusk.template.jaxrs.rs.JaxRsActivator;
+import com.splusk.template.bid.operations.IBidResource;
 
 @RunWith(Arquillian.class)
 @RunAsClient
@@ -50,7 +50,7 @@ public class BidResourceRestEasyClientTest {
 
     @Test
     @GET
-    public void testGetCustomerByIdUsingClientProxy() throws Exception {
+    public void testGetBid() throws Exception {
         //BidResource will be used as the concrete implementation (magic), but maybe it would be better to be more explicit in the code.
         IBidResource client = ProxyFactory.create(IBidResource.class, deploymentUrl.toString() + RESOURCE_PREFIX);
         Bid response = client.getBid("1");

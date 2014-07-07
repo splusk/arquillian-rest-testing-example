@@ -1,5 +1,5 @@
 .project
-.setting
+.settings/
 .classpath
 
 target
